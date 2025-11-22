@@ -1,0 +1,55 @@
+
+.aide-rapide-container {
+  position: fixed;         
+  top: 100px;             
+  right: 40px;             
+  width: 260px;
+  z-index: 999;
+}
+
+
+.aide-rapide-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+  border: 1px solid #eaeaea;
+  font-family: system-ui, sans-serif;
+}
+
+
+.aide-rapide-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.aide-rapide-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.aide-rapide-version {
+  background: #f1f5f9;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+
+.aide-rapide-list {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #444;
+}
+
+.aide-rapide-list li {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.aide-rapide-list b {
+  color: #2563eb;
+}
